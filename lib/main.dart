@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:application_musique/home_screen.dart';
 import 'package:application_musique/register_screen.dart';
+import 'package:application_musique/account_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,6 +23,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomeScreen(),
         '/register': (context) => const RegisterScreen(),
+        '/account': (context) => const AccountScreen(),
       },
     );
   }

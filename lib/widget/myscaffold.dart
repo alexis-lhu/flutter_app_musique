@@ -22,7 +22,7 @@ class MyScaffold extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(
                 context,
-                '/register',
+                '/account',
               );
             },
           ),

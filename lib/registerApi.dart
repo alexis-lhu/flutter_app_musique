@@ -47,6 +47,9 @@ class _RegisterFormState extends State<RegisterForm> {
             _lastNameController.text,
             _emailController.text,
             _passwordController.text,
+            _adressController.text,
+            _postalCodeController.text,
+            _cityController.text,
             ["user"]);
         // ignore: use_build_context_synchronously
         Navigator.of(context).pop();
